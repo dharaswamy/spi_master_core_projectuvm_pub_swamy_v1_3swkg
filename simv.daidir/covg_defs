@@ -1,0 +1,763 @@
+global coverage_group 0 $unit::wb_fc_subscriber::wb_cgp __coverage_wb_fc_subscriber.wb_cgp unused_wb_fc_subscriber_wb_cgp_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh...@1344508414 0  ( 0 
+)
+ 1 2
+ 0 32 /home/runner/wb_fc_subscriber.sv
+ 35 /home/runner/slave_fc_subscriber.sv
+ 13 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_17
+0
+0
+0
+64
+0
+ 0
+
+12
+0
+2
+0
+ 8 cvp_we_i 15 0 0 0 0 0 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 7 b_write 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 bin_read 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 9 cvp_adr_i 16 0 0 0 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_2 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 5 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 7 1 1 0 0 1 1 7 adr_tx0 16 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 adr_tx1 17 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 adr_tx2 18 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_5 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 adr_tx3 19 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_6 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 adr_ctrl 20 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_7 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 adr_div 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_8 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 adr_ss 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_9 0 0 0 0 0 0 0
+ 0
+
+ 7 cvp_stb 24 0 0 0 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_a 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_a 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 6 stb_l0 24 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 stb_h1 24 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0
+
+ 7 cvp_cyc 25 0 0 0 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_b 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_b 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 6 cyc_l0 25 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 cyc_h1 25 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0
+
+ 7 cvp_sel 26 0 0 0 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_c 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_c 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 4 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 5 sel_h 26 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_d 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_e 0 0 0 0 0
+ 0
+
+ 11 cvp_data_in 27 0 0 0 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_f 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_f 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 12 cvp_data_out 28 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_10 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_10 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 7 cvp_ack 29 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_11 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_11 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 13 cvp_interrupt 30 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_12 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_12 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 cvp_error 31 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_13 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_13 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 12 wb_pkt.adr_i 36 0 0 1 0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_2 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 5 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 11 wb_pkt.we_i 36 0 0 1 0 0 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 11 cxp_rx_regs 0 36 0 0 -1 0 0 0 0 2 10 11 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 -1 0 0 1 1 11 bin_rx_reg0 38 0 1 0 1 3 1 0 10 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_d 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_rx_reg1 40 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_14 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_rx_reg2 42 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_15 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_rx_reg3 44 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_16 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_1 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+
+ 11 cxp_tx_regs 0 49 0 0 -1 0 0 0 0 2 10 11 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 -1 0 0 1 1 11 bin_tx_reg0 50 0 1 0 1 3 1 0 10 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_d 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_tx_reg1 51 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_14 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_tx_reg2 52 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_15 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 11 bin_tx_reg3 53 0 1 0 1 3 1 0 10 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_16 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 11 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_cgp_fn_0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 $unit::wb_fc_subscriber::wb_ctrl __coverage_wb_fc_subscriber.wb_ctrl unused_wb_fc_subscriber_wb_ctrl_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh...@1344508414 0  ( 0 
+)
+ 0 58 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_a
+0
+0
+0
+64
+0
+ 0
+
+7
+0
+1
+0
+ 7 cvp_lsb 60 0 0 0 0 0 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 5 b_lsb 60 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_0 0 0 0 0 0 0 0
+ 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 10 cvp_tx_neg 61 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_2 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 8 b_tx_neg 61 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_0 0 0 0 0 0 0 0
+ 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 10 cvp_rx_neg 62 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_3 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_3 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 8 b_rx_neg 62 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_0 0 0 0 0 0 0 0
+ 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 12 cvp_char_len 63 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_4 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_4 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 7 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 5 v_len 63 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_5 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_6 0 0 0 0 0
+ 0
+
+ 7 cvp_ass 64 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_7 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_7 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 5 b_ass 64 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 b_ass_l 64 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_0 0 0 0 0 0 0 0
+ 0
+
+ 6 cvp_ie 65 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_8 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_8 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 4 b_ie 65 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0
+ 0
+
+ 11 cvp_go_busy 66 0 0 0 0 0 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_9 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_9 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 6 b_busy 66 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 145 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ctrl_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 12 cxp_ctrl_reg 0 67 0 0 -1 0 0 0 0 3 0 1 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
+global coverage_group 0 $unit::wb_fc_subscriber::wb_div __coverage_wb_fc_subscriber.wb_div unused_wb_fc_subscriber_wb_div_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh...@1344508414 0  ( 0 
+)
+ 0 72 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_div_fn_2
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 11 cvp_div_reg 74 0 0 0 0 0 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_div_fn 142 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_div_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 16 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 9 b_div_reg 74 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_div_fn_0 0 144 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_div_fn_1 0 0 0 0 0
+ 0
+
+end_coverage_group
+global coverage_group 0 $unit::wb_fc_subscriber::wb_ss __coverage_wb_fc_subscriber.wb_ss unused_wb_fc_subscriber_wb_ss_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh...@1344508414 0  ( 0 
+)
+ 0 78 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_8
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 10 cvp_ss_reg 81 0 0 0 0 0 141 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn 141 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 8 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 9 vb_ss_reg 88 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 8 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_0 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_1 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_2 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_3 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_4 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_5 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_6 0 0 0 0 0 0 0
+ 1 1 143 _vcs_unit__1344508414_wb_fc_subscriber_11_0::_vcs_unit__1344508414_wb_fc_subscriber_11_0__vcs_unit__1344508414_wb_fc_subscriber_11_0_wb_ss_fn_7 0 0 0 0 0 0 0
+ 0
+
+end_coverage_group
+global coverage_group 0 $unit::slave_fc_subscriber::slave_cgp __coverage_slave_fc_subscriber.slave_cgp unused_slave_fc_subscriber_slave_cgp_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp::/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh...@1344508414 0  ( 0 
+)
+ 0 14 1 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_d
+0
+0
+0
+64
+0
+ 0
+
+6
+0
+1
+0
+ 13 ss_pad_o_covp 16 1 0 0 0 0 154 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn 154 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 8 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 16 vd_bins_ss_pad_o 23 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 8 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_0 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_1 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_2 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_3 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_4 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_5 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_6 0 0 0 0 0 0 0
+ 1 1 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_7 0 0 0 0 0 0 0
+ 0
+
+ 15 slv_rx_neg_covp 24 1 0 0 0 0 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_8 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_8 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 12 slv_lsb_covp 25 1 0 0 0 0 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_9 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_9 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 17 slv_char_len_covp 29 1 0 0 0 0 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_a 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_a 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 9 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 14 miso_data_covp 30 1 0 0 0 0 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_b 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_b 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 128 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 14 mosi_data_covp 31 1 0 0 0 0 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_c 156 _vcs_unit__1344508414_slave_fc_subscriber_11_0::_vcs_unit__1344508414_slave_fc_subscriber_11_0__vcs_unit__1344508414_slave_fc_subscriber_11_0_slave_cgp_fn_c 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 128 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 27 slv_ss_pad_lsb_rx_neg_cross 0 27 1 0 -1 0 0 0 0 3 0 1 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

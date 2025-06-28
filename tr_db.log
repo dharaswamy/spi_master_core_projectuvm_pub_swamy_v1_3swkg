@@ -1,0 +1,9 @@
+  CREATE_STREAM @0 {NAME:wb_sequ T:Transactions SCOPE:uvm_test_top.spi_env.master_agent.master_sqr STREAM:3740}
+  CREATE_STREAM @0 {NAME:slave_b_seq[0] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[0].slave_sqr STREAM:3743}
+  CREATE_STREAM @0 {NAME:slave_b_seq[1] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[1].slave_sqr STREAM:3746}
+  CREATE_STREAM @0 {NAME:slave_b_seq[2] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[2].slave_sqr STREAM:3749}
+  CREATE_STREAM @0 {NAME:slave_b_seq[3] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[3].slave_sqr STREAM:3752}
+  CREATE_STREAM @0 {NAME:slave_b_seq[4] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[4].slave_sqr STREAM:3755}
+  CREATE_STREAM @0 {NAME:slave_b_seq[5] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[5].slave_sqr STREAM:3758}
+  CREATE_STREAM @0 {NAME:slave_b_seq[6] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[6].slave_sqr STREAM:3761}
+  CREATE_STREAM @0 {NAME:slave_b_seq[7] T:Transactions SCOPE:uvm_test_top.spi_env.slave_agent[7].slave_sqr STREAM:3764}
